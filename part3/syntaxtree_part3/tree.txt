@@ -1,0 +1,1 @@
+[Program_program[Variable_Declaration[Integer_Array[numbers]][Integer[i][maxValue]]][STATEMENTS[Write[STRING_LITERAL]][FORTO[i][ICONST[1]][ICONST[10]][STATEMENTS[READ[Array_Access[numbers][i]]]]][Assign[maxValue][Array_Access[numbers][ICONST[1]]]]]]
