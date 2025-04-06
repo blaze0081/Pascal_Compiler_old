@@ -13,7 +13,7 @@ typedef struct node{
     int ival;
     float fval;
 }Node;
-Node * myhead;
+extern Node * myhead;
 void bfs(Node* head);
 void dfs(Node * head);
 void addchild(Node * head,Node * child);

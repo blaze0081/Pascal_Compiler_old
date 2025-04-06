@@ -1,4 +1,6 @@
 #include "ast.h"
+Node * myhead;
+
 void bfs(Node *head)
 {
     Node *arr[100];

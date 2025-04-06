@@ -6,7 +6,7 @@
 extern FILE* yyin;
 extern int yylineno;
 int n=1;
-
+extern int yylex(void);
 %}
 
 %token <tree> PROGRAM INTEGER_KEYWORD REAL_KEYWORD BOOLEAN_KEYWORD CHAR_KEYWORD VAR
